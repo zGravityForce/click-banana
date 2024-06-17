@@ -9,5 +9,5 @@ console.log(`鼠标位置: x=${mouse.x}, y=${mouse.y}`);
 while (true) {
     robot.mouseClick();
     console.log('Click banana');
-    robot.setMouseDelay(100); // 每次点击后等待1秒
+    robot.setMouseDelay(100); // 每次点击后等待 x 秒
 }
